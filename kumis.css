@@ -1,0 +1,48 @@
+.list-social a:hover {
+  background-position: 0 bottom;
+}
+
+.privacy {
+  color: #1a1a1a;
+  padding-top: 6px;
+}
+.privacy a {
+  color: #F25C27;
+}
+.list-social {
+  list-style: none outside none;
+  overflow: hidden;
+  margin: 0;
+}
+.list-social a {
+  width: 30px;
+  height: 30px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+.list-social a.icon-fb {
+  background-image: url(images/soc-icon-fb.png);
+}
+.list-social a.icon-flickr {
+  background-image: url(images/soc-icon-flickr.png);
+}
+.list-social a.icon-twitter {
+  background-image: url(images/soc-icon-twitter.png);
+}
+.list-social a.icon-gplus {
+  background-image: url(images/soc-icon-gplus.png);
+}
+.list-social a.icon-rss {
+  background-image: url(images/soc-icon-rss.png);
+}
+.list-social li {
+  float: left;
+  margin-left: 5px;
+}
+.list-social a:hover {
+  background-position: 0 bottom;
+}
